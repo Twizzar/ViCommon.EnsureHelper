@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <EnableNETAnalyzers>false</EnableNETAnalyzers>
+        <AnalysisLevel>None</AnalysisLevel>
+        <SonarQubeTestProject>True</SonarQubeTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="5.10.3" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+        <PackageReference Include="Moq" Version="4.16.1" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+        <PackageReference Include="coverlet.collector" Version="1.0.1" />
+        <PackageReference Include="XPlot.Plotly" Version="3.0.1" />
+
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ViCommon.EnsureHelper\ViCommon.EnsureHelper.csproj" />
+    </ItemGroup>
+
+</Project>
