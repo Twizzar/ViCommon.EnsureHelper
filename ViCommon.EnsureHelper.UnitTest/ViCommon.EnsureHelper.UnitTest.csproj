@@ -5,7 +5,7 @@
         <IsPackable>false</IsPackable>
         <EnableNETAnalyzers>false</EnableNETAnalyzers>
         <AnalysisLevel>None</AnalysisLevel>
-        <SonarQubeTestProject>True</SonarQubeTestProject>
+        <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
     </PropertyGroup>
 
     <ItemGroup>
