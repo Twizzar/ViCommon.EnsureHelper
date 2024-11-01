@@ -1,5 +1,5 @@
 [![NuGet Version](https://img.shields.io/nuget/v/ViCommon.EnsureHelper)](https://www.nuget.org/packages/ViCommon.EnsureHelper/)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Twizzar/ViCommon.EnsureHelper/ci.yml)
+[![Build, Test, and Publish](https://github.com/Twizzar/ViCommon.EnsureHelper/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Twizzar/ViCommon.EnsureHelper/actions/workflows/ci.yml)
 
 
 # Introduction
